@@ -1,0 +1,29 @@
+# Data Dictionary
+
+| Column  | Meaning |
+|---|---|
+| Order ID | Unique order identifier |
+| Order Date | Date the order was placed |
+| Ship Date | Date the order was shipped |
+| Ship Mode | Shipping method |
+| Customer ID | Unique customer identifier |
+| Customer Name | Customer name |
+| Segment | Customer segment |
+| City | Customer city |
+| State | Customer state |
+| Postal Code | Postal code |
+| Region | Geographic region |
+| Product ID | Product identifier |
+| Category | Product category |
+| Sub-Category | Product sub-category |
+| Product Name | Product name |
+| Sales | Sales amount |
+| Order Month | Month derived from Order Date |
+| Order Year | Year derived from Order Date |
+| Ship Month | Month derived from Ship Date |
+| Ship Year | Year derived from Ship Date |
+| Total_Sales_Per_Customer | Total sales associated with a customer |
+| Customer_Value | Customer value classification |
+| Delivery_Time | Days between Order Date and Ship Date |
+
+**Important:** Use DISTINCT Order ID when counting orders and DISTINCT Customer ID when counting customers.
